@@ -10,7 +10,6 @@ fun main(){
     var list= listOf("apple","pear","orange","grape","watermelon","berry")
     list=list.map { fruit:String->if(fruit.length>=5)fruit.uppercase()else fruit}
     for(fruit in list) println(fruit)
-
 }
 fun largerNumber(num1:Int,num2:Int) = max(num1,num2)
 
